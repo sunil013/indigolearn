@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/indigolearn/static/css/main.90e3493f.css",
+    "main.js": "/indigolearn/static/js/main.3257a5a1.js",
+    "static/js/879.d7942601.chunk.js": "/indigolearn/static/js/879.d7942601.chunk.js",
+    "index.html": "/indigolearn/index.html",
+    "main.90e3493f.css.map": "/indigolearn/static/css/main.90e3493f.css.map",
+    "main.3257a5a1.js.map": "/indigolearn/static/js/main.3257a5a1.js.map",
+    "879.d7942601.chunk.js.map": "/indigolearn/static/js/879.d7942601.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90e3493f.css",
+    "static/js/main.3257a5a1.js"
+  ]
+}
