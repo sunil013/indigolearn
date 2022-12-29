@@ -1,0 +1,165 @@
+.navbar {
+  background-color: #32127a;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.navbar-section {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list-container {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-list-item {
+  list-style-type: none;
+  margin: 0px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.logo-text {
+  margin: 0px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 19px;
+  margin-left: 10px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.login-button {
+  background-color: #ffffff;
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 600;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: #32127a;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.profile-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: #32127a;
+}
+
+.bm-burger-button {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  /* left: 36px; */
+  /* top: 36px; */
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+/* Color/shape of burger icon bars on hover*/
+/* .bm-burger-bars-hover {
+  background: #a90000;
+} */
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  /* color: #ffffff; */
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #ffffff;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  /* position: fixed; */
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #32127a;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  /* color: #b8b7ad; */
+  color: #a4e4fe;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.cart-icon {
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+}
+.menu-item {
+  font-family: "Poppins";
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 798px) {
+  .nav-list-container {
+    display: none;
+  }
+  .login-button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 799px) {
+  .cart-icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 799px) and (max-width: 900px) {
+  .nav-list-item {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,110 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 8px;
+  max-width: 480px;
+  background-color: #fff;
+  padding: 12px 8px 25px 8px;
+  align-self: center;
+  border-top: 2px solid #32127a;
+}
+.form-heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 15px;
+}
+.input-box {
+  width: 90%;
+  background-color: transparent;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 16px;
+  padding-left: 8px;
+  font-weight: 500;
+  border: 1px solid #bebebe;
+  height: 38px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.form-button {
+  background-color: #32127a;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 15px;
+  color: #fff;
+  width: 90%;
+  height: 38px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.input-box:focus {
+  border: 2px solid #32127a;
+}
+.select-option {
+  margin: 20px;
+}
+
+.form-button:hover {
+  background-color: #230c55;
+}
+@media screen and (min-width: 800px) {
+  .form-container {
+    width: 90%;
+  }
+}
+
+.error-msg {
+  /* align-self: start; */
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+.foo-logout-popup {
+  width: 50vw !important;
+}
+.popup-text {
+  font-family: "Poppins";
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+.popup-container {
+  padding: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popup-close-button {
+  width: 100px;
+  height: 35px;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: #94a3b8;
+  background-color: transparent;
+  border: #94a3b8 solid 1px;
+  border-radius: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.popup-close-button:hover {
+  border: #0967d2 solid 2px;
+  color: #0967d2;
+  font-weight: 600;
+}
